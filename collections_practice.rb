@@ -23,7 +23,3 @@ def remove_non_strings(array)
     word.instance_of?(String) == false
   end
 end
-
-def count_elements(array)
-  array.uniq.each |word|
-end

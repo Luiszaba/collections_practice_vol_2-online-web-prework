@@ -25,5 +25,5 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-count_elements(array).collect? {|elements| elements << array}
+count_elements(array).collect {|elements| elements << array}
 end

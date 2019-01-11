@@ -25,7 +25,5 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  i = 0
-  while i < array.length([i+1])
-end
+array.count
 end
